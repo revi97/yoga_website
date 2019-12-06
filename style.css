@@ -1,0 +1,228 @@
+html{scroll-behavior: smooth;}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: rgb(105, 174, 214);
+}
+
+nav{
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-color: rgba(245, 245, 245, 0.2);
+    top: 0%;
+    margin: 0%;
+    left: 0%;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+}
+
+.nav-image{
+    /* Nav bar icon  variation*/
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0%;
+    top: 0%;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 800px;
+    list-style: none;
+}
+
+#buttons{
+    float: left;
+    text-align: right;
+    margin: 8px;
+    padding: 3px;
+    font-size:x-large;
+    list-style: none;   
+}
+#buttons a{
+    text-decoration: none;
+    
+}
+#buttons a:hover {
+    text-decoration: none;
+    color: #f8f6f6;
+    background-color: rgb(81, 10, 139);
+    zoom: 110%;
+}
+/* End of nav bar styling */
+#home{
+    background-image: url(images/yoga10.jpg);
+    top: 0%;
+    width: 100%;
+    height: 1080px;
+    background-size:cover;
+}
+/* End of home styling */
+#about{
+    color: #ffffff;
+    margin-top:0px;
+    height:700px;
+    display:inline-black;
+    width:100%;
+    box-sizing: border-box;
+}
+#about h1{
+    margin-block-start:0.0em;
+    margin-block-end: 0.0em;
+    text-align:center;
+    padding:90px;
+    padding-bottom:10px;
+}
+#about h5{
+    text-align:center;
+    margin-block-start:0.0em;
+}
+#about q{
+    font-size:20px;
+}
+#about p{
+    padding-left:100px;
+    padding-right:10px;
+    font-size:25px;
+    text-align:center;
+    font-weight:bold;
+}
+.image-sizing{
+    top: 0%;
+    width:268px;
+    height:168px;
+    padding-left:50px;
+    width:300px;
+    padding-right:10px;
+    height:300px;
+    float:left;
+}
+/* End of about styling */
+#classes{
+    margin-top:0px;
+    height:700px;
+    display:inline-black; 
+    width:100%;
+}
+#classes h1{
+    margin-block-start:0.0em;
+    margin-block-end: 0.0em;
+    text-align:center;
+    padding:90px;
+    padding-bottom:10px;
+}
+
+#classes .align{
+    height:50px;
+    widows: 100px;
+    margin-left: 60px;
+    padding-right:100px;
+    padding-left:50px; 
+}
+/* End of class styling */
+#diet{
+    margin-top: 400px;
+    top: 0%;
+    width: 100%;
+    height: 1400px;
+    background-size:cover;
+}
+#diet h1{
+    text-align: center;
+    padding-top: 30px;
+}
+/* End of diet styling */
+#register{
+    background:transparent;
+    border:0px;
+    text-align: center;
+    margin-left: 30%;
+    justify-content: left;
+    align-content: left;
+    margin-bottom:16px;
+    color:black;
+    width:600px;
+    font-size:18px;
+    outline:none;
+}
+#register h1{
+    float: right;
+    align-content: center;
+    margin-block-start:0.0em;
+    margin-block-end: 0.0em;
+    text-align:center;
+    padding:90px;
+    padding-bottom:10px;
+}
+/* End of register styling */
+#contact{
+    display:inline-black;
+    width:100%;
+    height:700px; 
+    color:white;
+    font-family:sans-serif;
+    margin-top:100px
+}
+::placeholder {
+    color: White;
+    opacity: 1;
+}
+#f h1{
+    margin-block-start:0.0em;
+    margin-block-end: 0.0em;
+    text-align:center;
+    padding:90px;
+    padding-bottom:10px;
+}
+#f h4{
+    margin-block-start:0.0em;
+    margin-block-end: 0.0em;
+    padding:0px;
+    text-align:center;
+}
+#con{
+    margin-top: 100px;
+}
+#f-con{
+    background:transparent;
+    border:0px;
+    margin-bottom:16px;
+    border-bottom-style:solid;
+    border-bottom-color:gray;
+    border-bottom-width:medium;
+    color:white;
+    width:600px;
+    font-size:18px;
+    outline:none;
+}
+input{
+    height:50px;
+}
+.f-sub{
+    width:600px;
+    background:transparent;
+    border-radius: 12px;
+    border:0px;
+    outline:none;
+    color:white;
+    font-size:18px;
+    margin-bottom:16px;
+    background:white;
+    color:black;
+    border:none;
+    outline:none;
+    font-weight:bolder;
+    margin-top:30px;
+    letter-spacing:2px;
+}
+
+.f-sub:hover{
+    color:gray;
+    cursor:pointer;
+}
+
+::placeholder {color: White;opacity: 1;}
+/* End of contact styling */
+
+
